@@ -1,9 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-
 export default function Navigate(props) {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+		<nav className={"navbar navbar-expand-lg navbar-dark bg-dark"}>
 			<div className="container-fluid">
 				<a className="navbar-brand" href="/">
 					{props.title}
@@ -34,7 +33,7 @@ export default function Navigate(props) {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="/">
+							<a className="nav-link" href="/	">
 								{props.aboutText}
 							</a>
 						</li>
